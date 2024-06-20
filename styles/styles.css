@@ -13,9 +13,9 @@ h1 {
 img {
     width: 150px;
     height: auto;
-    bottom: 1px solid steelblue;
+    border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30 px gray;
+    box-shadow: 0 0 30px #333;
 }
 p {
     padding: 10px;
