@@ -1,0 +1,20 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+:root{
+    display: block;
+    border: 1px solid rgba(0,0,0,0.2);
+    width: 550;
+}
+h1 {
+    text-align: center;
+    color: blue;
+}
+h2 {
+    text-align: center;
+    color: blueviolet;
+}
+p {
+    text-align: center;
+}
+
+
+
