@@ -1,8 +1,7 @@
 @import url(https://fonts.google.com/specimen/Roboto);
-:root{
-    display: block;
-    border: 1px solid rgba(0,0,0,0.2);
-    width: 550;
+:root {
+    padding: 5px;
+
 }
 h1 {
     text-align: center;
@@ -15,6 +14,30 @@ h2 {
 p {
     text-align: center;
 }
-
+.header {
+    border: 1px solid rgba(0,0,0,0.2);
+    width: 760px;
+    margin: auto;
+}
+.footer {
+    background-color: blueviolet;
+    text-align: center;
+    color: black;
+    width: 760px;
+    ;
+}
+.hero {
+    margin: auto;
+    width: 760px;
+}
+.article {
+    float: right;
+}
+.hero1 {
+    align-items: center;
+}
+.section {
+    
+}
 
 
