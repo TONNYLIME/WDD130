@@ -1,0 +1,169 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+* {
+    box-sizing: border-box;
+    
+
+}
+body {
+    display: grid;
+    
+    max-width: 1000px;
+    margin: auto;
+    
+}
+h1 {
+    text-align: center;
+    color: blue;
+    grid-column: 2;
+
+    display: grid;
+    grid-template-rows: auto auto auto auto ;
+    min-height: vh;
+
+}
+h2 {
+    text-align: center;
+    color: blueviolet;
+
+}
+
+header {
+    border: 1px solid rgba(0,0,0,0.2);
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 400px 1fr 2fr;
+    align-items: center;
+}
+.logo {
+    margin: 1px;
+    width: 64px;
+    height: auto;
+}
+nav {
+    
+    display: grid;
+    width: 500px;
+    float: right;
+    margin-top: 5rem;
+    
+}
+.navigation {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    align-content: center;
+    margin-top: 0.1px;
+}
+.navigation li {
+    flex: 1 1 100%;
+}
+.navigation a {
+    display: grid;
+    color: purple;
+    padding: 20px;
+    text-decoration: none;
+}
+.navigation a:hover {
+    color: red;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: blueviolet;
+    text-align: center;
+    color: black;
+    width: 760px;
+    ;
+}
+.hero {
+    margin: auto;
+    width: 760px;
+}
+.article {
+    float: right;
+    height: 200px;
+    margin: 2rem;
+    margin-top: 0;
+}
+.hero1 {
+    align-items: center;
+}
+
+footer {
+    
+    display: flex;
+    max-width: 1000px;
+    align-content: center;
+    margin: 0;
+    border: 1px solid rgba(0,0,0,0.2);
+    background-color: blue;
+    
+}
+.sociallinks {
+    align-content: center;
+    margin-left: 5rem;
+    display: flex;
+    margin-right: 5rem;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+
+
+}
+
+@media (min-width: 100em) {
+    body {
+        grid-template-columns: 40em 1fr;
+        grid-template-rows: auto 1fr auto;
+    }
+}
+.one{
+    max-width: 1000px;
+    margin: auto;
+
+    display: grid;
+}
+
+p.get{
+    float: right;
+    margin-right: 5rem;
+    
+}
+.para{
+    margin-right: 5rem;
+    margin-left: 5rem;
+    color: antiquewhite;
+
+}
+.behind{
+    background: local;
+    height: 400px;
+    width: 1000px;
+}
+.pic {
+    float: right;
+    width: 200px;
+    display: flex;
+    border: 1px dotted black;
+    margin: 0px 0px 15px 20px;
+}
+div {
+    border: 1px dotted;
+    max-width: 1000px;
+    background-image: url('../image/large.jpg');
+}
+.column {
+    float: left;
+    width: 15%;
+    padding: px;
+    
+
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+}

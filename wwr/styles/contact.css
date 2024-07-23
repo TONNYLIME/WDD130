@@ -1,15 +1,15 @@
 @import url(https://fonts.google.com/specimen/Roboto);
-:root {
-    display: block;
-    
+* {
+    box-sizing: border-box;
+
 
 }
 body {
     display: grid;
     border: 1px solid red;
-    max-width: 100%;
-    gap: 1em;
-    height: 100kv;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
     
 }
 h1 {
@@ -63,14 +63,6 @@ nav {
     font-weight: 700;
     text-decoration: underline;
 }
-
-.footer {
-    background-color: blueviolet;
-    text-align: center;
-    color: black;
-    width: 760px;
-    ;
-}
 .hero {
     margin: auto;
     width: 760px;
@@ -86,41 +78,31 @@ nav {
 }
 
 footer {
-    
-    display: flex;
-    width: 760px;
+
+    display: grid;
+    width: 1000px;
     align-content: center;
 }
-.sociallinks {
-    align-content: flex-end;
-    
 
-}
-figure {
-    
-}
-@media (min-width: 100em) {
-    body {
-        grid-template-columns: 40em 1fr;
-        grid-template-rows: auto 1fr auto;
-    }
-}
 
-body{
+
+
+
+
+body {
     margin: 0;
         display: grid;
         align-items: center;
         justify-content: center;
-        height: 100vh;
         font-family: Acme, Arial, sans-serif;
-        line-height: 1.4;
-
+        max-width: 1000px;
+        margin: auto;
 }
 article,
 header,
 footer
 section{
-    display: block;
+    display: grid;
 }
 
 
@@ -176,4 +158,21 @@ section{
     max-width: 400px;
     margin: 1rem 2% 2rem 2%;
     box-shadow: 1px 1px 4px #999;
+}
+.row{
+float: left;
+width: 19.5%;
+padding: 5px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.sociallinks{
+    display: block;
+    float: right;
+    gap: 10rem;
+    margin-top: 2rem;
+
 }
